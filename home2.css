@@ -1,0 +1,776 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --back-color: rgb(254, 251, 234);
+    --color1: rgb(91, 198, 192);
+    --color1light: rgb(196, 232, 223);
+    /* --color2: rgb(228, 67, 78); */
+    --color2: rgb(239, 71, 85);
+    --color2light: rgb(242, 179, 172);
+    --color3: rgb(35, 65, 94);
+}
+
+
+
+
+body {
+    background-color: var(--back-color);
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+header .logo {
+    margin: 0vh 0vw;
+    padding: 0vh 0vw;
+}
+
+header .logo img {
+    width: 110px;
+    /* height: 90px; */
+    margin: 11px 54px;
+    padding: 6px 0px;
+    border-radius: 80%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* header div {
+
+} */
+
+/* header div form {
+    display: flex;
+    flex: row;
+    margin: 0vh 0vw;
+    padding: 0vh 0vw;
+} */
+
+/* header div form ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px 0px;
+    padding: 0px 0px;
+} */
+
+header input {
+    padding: 10px 28px;
+    border-radius: 20px;
+    border: 1px solid var(--color1);
+    color: var(--color3);
+}
+
+.head2 {
+    margin: 8vh 58vw;
+    padding: 0vh 0vw;
+    font-family: 'Poppins';
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+header input::placeholder {
+    color: var(--color3);
+}
+
+header .head2 .head2a a {
+    text-decoration: none;
+    color: var(--color3);
+}
+
+.head2a {
+    margin: 0vh 0vw;
+    padding: 1vh 3vw;
+}
+
+header .head2 .head2a a {
+    white-space: nowrap;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar */
+nav {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0.2px;
+    z-index: 1;
+    background-color: var(--back-color);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0vh 0vw;
+    padding: 0vh 0vw;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0vh 0vw;
+    padding: 0vh 0vw;
+}
+
+nav ul .other {
+    display: flex;
+    border: 1.5px solid var(--color1);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: -0.5px;
+    padding: 13px 81.2px;
+}
+
+nav ul .other:hover {
+    background-color: var(--color1light);
+    display: flex;
+    border: 1.5px solid var(--color1);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: -0.5px;
+    padding: 13px 81.2px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(35, 65, 94);
+}
+
+nav ul #order {
+    display: flex;
+    border: 1.5px solid var(--color1);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: -0.5px;
+    padding: 13px 83.2px;
+    background-color: var(--color2);
+    color: white;
+}
+
+nav ul #order:hover {
+    display: flex;
+    border: 1.5px solid var(--color2);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: -0.5px;
+    padding: 13px 83.2px;
+    background-color: var(--color2light);
+    color: white;
+}
+
+
+/* Navbar Image  */
+nav img {
+    margin: -5.5vh 44.5vw;
+    padding: 5vh 5vw;
+    height: 19vh;
+    width: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Menu  */
+.menu {
+    padding: 0vh 0vw;
+    margin: 10vh 0vw;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.menu1 {
+    color: var(--color3);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.menu2 {
+    text-align: center;
+    color: var(--color1);
+    font-size: 4.4rem;
+}
+
+
+.menuimg {
+    align-items: center;
+    justify-content: center;
+    margin: 0vh 0vw;
+    padding: 0vh 0vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menuimg div {
+    margin: 0px 69px;
+    padding: 0px 0px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+
+.menuimg div img {
+    border: 1px solid var(--color1);
+    border-radius: 25px;
+    width: 280px;
+    height: 350px;
+}
+
+#m1 {
+    display: flex;
+    /* border: 1.5px solid rgb(91, 198, 192); */
+    border-radius: 20px;
+    margin: -0.5px;
+    padding: 13px 114.2px;
+    background-color: var(--color2);
+    color: white;
+    text-decoration: none;
+}
+
+#m1:hover {
+    display: flex;
+    /* border: 1.5px solid rgb(91, 198, 192); */
+    border-radius: 20px;
+    margin: -0.5px;
+    padding: 13px 114.2px;
+    background-color: var(--color2light);
+    color: white;
+    text-decoration: none;
+}
+
+#m2 {
+    display: flex;
+    /* border: 1.5px solid rgb(91, 198, 192); */
+    border-radius: 20px;
+    margin: -0.5px;
+    padding: 13px 98.2px;
+    background-color: var(--color2);
+    color: white;
+    text-decoration: none;
+}
+
+#m2:hover {
+    display: flex;
+    /* border: 1.5px solid rgb(91, 198, 192); */
+    border-radius: 20px;
+    margin: -0.5px;
+    padding: 13px 98.2px;
+    background-color: var(--color2light);
+    color: white;
+    text-decoration: none;
+}
+
+#m3 {
+    display: flex;
+    /* border: 1.5px solid rgb(91, 198, 192); */
+    border-radius: 20px;
+    margin: -0.5px;
+    padding: 13px 106.2px;
+    background-color: var(--color2);
+    color: white;
+    text-decoration: none;
+}
+
+#m3:hover {
+    display: flex;
+    /* border: 1.5px solid rgb(91, 198, 192); */
+    border-radius: 20px;
+    margin: -0.5px;
+    padding: 13px 106.2px;
+    background-color: var(--color2light);
+    color: white;
+    text-decoration: none;
+}
+
+.backgroundcolor {
+    padding: 0vh 0vw;
+    margin: -44vh 2.7vw;
+    width: 93vw;
+    height: 50vh;
+    background-color: var(--color1light);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Review */
+.review {
+    margin: 48vh 0vw;
+    padding: 10vh 0vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url(images/buttercream-blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid var(--color1);
+}
+
+.review p {
+    font-size: 1.4rem;
+    margin: 0vh 0vw;
+    padding: 0vh 0vw;
+}
+
+.p1 {
+    text-align: center;
+    color: var(--color3);
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin: 0vh 0vw;
+    padding: 0vh 0vw;
+}
+
+.p2 {
+    text-align: center;
+    color: var(--color3);
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0vh 0vw;
+    padding: 0vh 0vw;
+}
+
+.cakepieces-wholecake {
+    margin: -53vh 0vw;
+    /* padding-left: 50%; */
+    padding: 0vh 10vw;
+}
+
+.cakepieces-wholecake .wholecake {
+    margin: 0vh -5vw;
+    padding: 0vh 0vw;
+    padding-left: 50%;
+    height: 10vh;
+    width: 10vw;
+    min-height: 10vh;
+}
+
+.cakepieces-wholecake .slice {
+    margin: 0vh -5vw;
+    padding: 0vh 0vw;
+    padding-left: 50%;
+    height: 7vh;
+    width: 3vw;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Review-text */
+.review-text {
+    overflow: visible;
+    margin: 63vh 5vw;
+    padding: 0vh 0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* position: relative; Add this to make it a reference for absolutely positioned elements */
+}
+
+.text-image {
+    padding: 0vh 0vw;
+    margin: 0vh 0vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+}
+
+.text {
+    padding: 0vh 0vw;
+    margin: 0vh 4vw;
+    flex: 1;
+    /* Take up available horizontal space */
+    max-width: 50%;
+    /* Limit the width of the text */
+    padding: 20px;
+    /* Add some padding to the text */
+    align-items: center;
+    justify-content: center;
+}
+
+.text p {
+    padding: 0vh 0vw;
+    margin: 0vh -1vw;
+    color: var(--color3);
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    text-align: right;
+}
+
+.image {
+    padding: 0vh 10vw;
+    margin: 0vh -1vw;
+}
+
+.image img {
+    padding: 0vh 0vw;
+    margin: 0vh 0vw;
+    border: 1px solid var(--color1);
+    border-radius: 25px;
+    width: auto;
+    /* Allow the width to adjust based on the image's aspect ratio */
+    height: 240px;
+    /* Change this value to your desired height */
+}
+
+/* .vertical-line {
+    border-left: 1.3px dashed red;
+    height: 130vh;
+    width: auto;
+    margin: 0 20px;
+    position: absolute;
+} */
+
+
+
+/* Use media query to adjust font sizes on smaller screens */
+/* @media (max-width: 768px) {
+    .review p {
+        font-size: 0.8rem;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.marquee {
+    padding: 0vh 0vw;
+    margin: -50vh 0vw;
+    width: 100%;
+    height: 75px;
+    background-color: var(--color2);
+    border-top: 2px solid var(--color1);
+    border-bottom: 2px solid var(--color1);
+}
+
+.marquee ul {
+    list-style: circle;
+    display: flex;
+    padding: 4.5vh 13vw;
+    margin: 0vh 0vw;
+    text-align: center;
+    align-items: center;
+}
+
+.marquee ul li {
+    /* position: relative; */
+    padding: 0vh 4vw;
+    margin: 0vh 0vw;
+    list-style: circle;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* white-space: nowrap; */
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer Styles */
+footer {
+    background-color: var(--back-color);
+    color: var(--color2);
+    padding: 20px 0;
+    /* margin: -8px 0px 0px 0px;  */
+    /* border-top: 1px solid var(--color1); */
+    border-bottom: 2px solid var(--color1);
+    font-family: monospace;
+
+    align-items: center;
+    justify-content: center;
+    /* margin: auto;
+    width: 100vw; */
+
+}
+
+.footerinside {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0vh 0vw;
+    /* padding: 0vh 1.5vw; */
+    margin: auto;
+    width: 100vw;
+}
+
+.footerlogo {
+    margin: 0vh 0vw;
+    padding: 0vh 0vw;
+}
+
+.footerlogo img {
+    float: left;
+    width: 145px;
+    /* height: 90px; */
+    margin: 3px 24px;
+    padding: 0px;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.footerfollow {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 0px 0px;
+}
+
+.footerinside {
+    display: flex;
+    flex-direction: row;
+}
+
+.feeback {
+    /* text-align: right; */
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.footerfollow a:first-child:hover {
+    text-decoration: underline;
+}
+
+.footerfollow a {
+    font-size: 24px;
+    color: var(--color2);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin: -3px -25px;
+    padding: 0px 0px;
+}
+
+
+
+/* .fa-facebook::before { content: "\f082"; } */
+/* .fa-twitter::before { content: "\f099"; } */
+/* .fa-instagram::before { content: "\f16d"; } */
+/* 
+.copyright {
+    width: 100%;
+    height: 7vh;
+    max-height: 7vh;
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--color2);
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright pre {
+    margin: 0vh 0vw;
+    padding: 2vh 0vw;
+    font-family: sans-serif;
+} */
+
+/* img {
+    max-width: 100%;
+    height: auto;
+} */
+
+.copyright {
+    width: 100%;
+    min-height: 5vh;
+    background-color: var(--color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright pre {
+    margin: 0;
+    padding: 1vh 0;
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    white-space: nowrap;
+    /* Prevent text from breaking into multiple lines */
+}
+
+@media screen and (max-width: 768px) {
+    .copyright pre {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+
+
+
+
+/* body {
+    background-color: var(--back-color);
+    font-family: sans-serif;
+    display: grid;
+    grid-template-areas: 
+        'header header'
+        'nav nav'
+        'menu menu'
+        'section section'
+        'cakepieces-wholecake cakepieces-wholecake'
+    ;
+}
+
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+.menu{
+    grid-area: menu;
+}
+.review{
+    grid-area: review;
+}
+.cakepieces-wholecakeav{
+    grid-area: cakepieces-wholecake;
+} */
+
+
+/* Add the following CSS for grid layout */
+
+/* body {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "content content content"
+        "footer footer footer";
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+.menu,
+.review,
+.cakepieces-wholecake,
+.review-text,
+.marquee,
+footer {
+    grid-area: content;
+}
+
+footer {
+    grid-area: footer;
+} */
+
+/* Rest of your existing styles go here */

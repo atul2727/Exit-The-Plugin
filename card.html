@@ -1,0 +1,159 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .cake-card {
+            width: 300px;
+            margin: 20px;
+            border: 1px solid #ddd;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .cake-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: background-image 0.3s ease-in-out;
+        }
+
+        .cake-image{
+            background-image: url('images/1a.jpg');
+        }
+
+        .cake-image:hover {
+            background-image: url('images/1b.jpg');
+        }
+
+        .cake-details {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .cake-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .cake-price {
+            color: #f00; 
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="cake-card">
+    <div class="cake-image"></div>
+    <div class="cake-details">
+        <div class="cake-name">Delicious Chocolate Cake</div>
+        <div class="cake-price">$20.99</div>
+    </div>
+</div>
+
+
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cakes</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .food-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: 20px;
+            max-width: 300px;
+            transition: transform 0.3s ease;
+        }
+
+        .food-card:hover {
+            transform: scale(1.05);
+        }
+
+        .food-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #ff6347; /* Tomato color */
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4caf50; /* Green color */
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049; /* Darker green color on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="food-card">
+    <img src="cake1.jpg" alt="Cake 1">
+    <div class="card-content">
+        <h2>Cake 1</h2>
+        <p>Delicious chocolate cake with layers of creamy frosting.</p>
+        <p class="price">$25.99</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<div class="food-card">
+    <img src="cake2.jpg" alt="Cake 2">
+    <div class="card-content">
+        <h2>Cake 2</h2>
+        <p>Vanilla sponge cake with fresh strawberries and whipped cream.</p>
+        <p class="price">$29.99</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<!-- Add more food cards for other cakes -->
+
+</body>
+</html>

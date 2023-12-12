@@ -1,0 +1,97 @@
+/* Add the following CSS styles to your existing CSS file */
+
+/* About Us Section */
+.aboutuscontainer{
+    background-color: var(--backcolor);
+    display: flex;
+    flex-direction: column;
+}
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px auto 60px;
+    padding: 20px;
+    max-width: 1000px;
+    /* background-color: white; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.aboutus h2 {
+    color: var(--color3);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.aboutus h3 {
+    color: var(--color1);
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.aboutus p {
+    color: var(--color3);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.aboutus a {
+    color: var(--color2);
+    text-decoration: none;
+    font-weight: bold;
+}
+/* 
+.aboutus a:hover {
+    text-decoration: underline;
+} */
+
+
+
+/* Add the following styles for the founders container and individual founders */
+.founders-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px ;
+    max-width: 1000px; /* Adjust this value based on your layout */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.founder {
+    text-align: center;
+}
+
+.founder img {
+    width: 150px; /* Adjust the image width as needed */
+    border-radius: 5 0%;
+    margin-bottom: 10px;
+}
+
+.founder p {
+    color: var(--color3);
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+/* Footer Styles */
+footer {
+    background-color: var(--back-color);
+    color: var(--color2);
+    padding: 20px 0;
+    border-top: 2px solid var(--color1);
+    box-sizing: border-box;
+    font-family: monospace;
+    align-items: center;
+    justify-content: center;
+    width: 100vw; /* Set width to cover the full screen */
+}
